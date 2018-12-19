@@ -1,0 +1,62 @@
+.bg-image1 {
+       background-image: url(../images/bg_img.jpg);
+       background-repeat: no-repeat;
+       background-size: auto;
+       background-size: cover;
+   }
+.indexhead {
+	color: #fff;
+	padding-left: 25px;
+}
+
+.bgWhite {
+	background-color: white;
+}
+
+.indexHeight {
+	height: 430px !important;
+}
+.borderRadius10{
+    border-radius: 10px;
+}
+.marginX170px{
+    margin-top:50px;
+    margin-bottom:170px;
+}
+.marginY130px{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.required {
+       color: #E00000;
+}
+   
+.marginCenter{
+    margin:0 120px;
+}
+
+.pull-center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.margin-bottom10px {
+  margin-bottom: 10px !important;
+}
+.font-familySans{
+    font-family:sans-serif;
+}
+.fontSize18{
+    font-size: 20px;
+}
+.section{
+    position: relative;
+}
+.section::after {
+    content: "";
+    position: absolute;
+    width: 0.1em;
+    background-color: #dfb1d6;
+    height: 338px;
+    left: calc(113%);
+    bottom: -4%;}
